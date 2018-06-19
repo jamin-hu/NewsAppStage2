@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NewsAppStage2</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_news_found">No news found :(, do reopen the app later though, it might
+        be different next time.
+        Normally I would ask you to rotate the screen so the activity would restart and load the
+        info again but I just learned how to use a loader instead of an asynctask alone so that
+        will not work...</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_articles_loaded_label">Number of articles to display (Max. 50)</string>
+    <string name="settings_articles_loaded_key" translatable="false">articles_loaded</string>
+    <string name="settings_articles_loaded_default" translatable="false">10</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest to newest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest to oldest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+</resources>
